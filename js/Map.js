@@ -20,3 +20,14 @@ console.log(outputBinary);
 console.log(arr.map((x)=>
     x.toString(16)
 ));
+
+
+const user=[
+{ firstName: "akshay", lastName: "saini", age: 26 },
+{ firstName: "donald", lastName: "trump", age: 75 },
+{ firstName: "elon", lastName: "musk", age: 50 },
+{ firstName: "deepika", lastName: "padukone", age: 26 }]
+
+let outputuser=user.map((x)=>x.firstName +" "+x.lastName)
+console.log(outputuser);
+
